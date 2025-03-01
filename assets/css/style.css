@@ -5,20 +5,30 @@
     box-sizing: border-box;
 }
 
+/* Full height for body and HTML */
+html, body {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
 /* Parallax Background */
 .parallax {
-    background-image: url('https://steakdream.github.io/assets/image/IMG_3846.JPG');
+    background-image: url('https://steakdream.github.io/assets/image/IMG_3846.JPG'); /* Use full URL */
     height: 100vh; /* Full screen height */
     background-attachment: fixed; /* Parallax effect */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative; /* Ensure stacking works */
+    z-index: 1; /* Keep background behind content */
 }
 
 /* Content Section */
 .content {
-    background-color: white;
+    position: relative; /* Allows it to layer properly */
+    background-color: white; /* Ensures it fully covers the image */
     padding: 50px;
     text-align: center;
     font-size: 18px;
+    z-index: 2; /* Higher than .parallax */
 }
