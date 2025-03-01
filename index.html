@@ -3,26 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Parallax Effect</title>
-    <link rel="stylesheet" href="/assets/css/style.css"> <!-- Custom CSS -->
+    <title>Parallax Full-Page Sections</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
 
     <!-- First Parallax Section -->
     <div class="parallax"></div>
 
-    <!-- Content Section -->
+    <!-- Full-Screen Content Section -->
     <div class="content">
-        <h2>Scroll Down</h2>
-        <p>This content moves over the background.</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#articles">Articles</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <h2>Welcome</h2>
+        <p>This is the introduction page.</p>
     </div>
 
     <!-- Second Parallax Section -->
     <div class="parallax"></div>
 
-    <div class="content">
-        <h2>Another Section</h2>
-        <p>More content covering the image as you scroll.</p>
+    <div class="content" id="about">
+        <h2>About Us</h2>
+        <p>More details about our website and purpose.</p>
+    </div>
+
+    <!-- Third Parallax Section -->
+    <div class="parallax"></div>
+
+    <div class="content" id="articles">
+        <h2>Articles</h2>
+        <p>Read our latest blog posts and insights.</p>
+    </div>
+
+    <!-- Fourth Parallax Section -->
+    <div class="parallax"></div>
+
+    <div class="content" id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us here.</p>
     </div>
 
 </body>
