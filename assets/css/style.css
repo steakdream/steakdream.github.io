@@ -7,7 +7,7 @@
 
 /* Parallax Background */
 .parallax {
-    background-image: url('/assets/images/IMG_3846.jpg'); /* Change to your image */
+    background-image: url('/assets/image/IMG_3846.jpg'); /* Change to your image */
     height: 100vh; /* Full screen height */
     background-attachment: fixed; /* Parallax effect */
     background-position: center;
