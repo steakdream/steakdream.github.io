@@ -9,6 +9,7 @@
 html, body {
     height: 100%;
     font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Smooth scrolling effect */
 }
 
 /* Parallax Background */
@@ -19,16 +20,36 @@ html, body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative; /* Ensure stacking works */
-    z-index: 1; /* Keep background behind content */
+    position: relative; /* Keeps layering correct */
+    z-index: 1;
 }
 
-/* Content Section */
+/* Full-Screen Content Section */
 .content {
-    position: relative; /* Allows it to layer properly */
-    background-color: white; /* Ensures it fully covers the image */
-    padding: 50px;
+    position: relative; /* Ensures proper stacking */
+    height: 100vh; /* Full screen height */
+    background-color: white; /* Ensures full coverage */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers text */
+    align-items: center; /* Centers text */
     text-align: center;
-    font-size: 18px;
-    z-index: 2; /* Higher than .parallax */
+    font-size: 24px;
+    z-index: 2;
+}
+
+/* Navigation Example */
+nav {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
 }
