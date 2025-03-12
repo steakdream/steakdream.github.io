@@ -6,9 +6,9 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/IMG_3846.JPG
-  actions:
-    - label: "Enter"
-      url: "/_pages/list.md"
+  #actions:
+    #- label: "Enter"
+     # url: "/_pages/list.md"
 
 excerpt: "Life is tough, and there are so many things I do not and cannot understand."
 ---
