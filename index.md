@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/IMG_3846.JPG
   actions:
     - label: "Enter"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+      url: "/_pages/list.md"
 
 excerpt: "Life is tough, and there are so many things I do not and cannot understand."
 ---
