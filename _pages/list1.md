@@ -1,7 +1,7 @@
 ---
 title: "whatever1 Page"
 layout: splash
-permalink: /
+permalink: /_pages/
 date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
