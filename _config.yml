@@ -105,10 +105,10 @@ social:
 
 # Analytics
 analytics:
-  provider               : # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider: "google-gtag"  # 使用 GA4
   google:
-    tracking_id          :
-    anonymize_ip         : # true, false (default)
+    tracking_id: "G-S8GW6T58Q8"
+    anonymize_ip: false    # 根据需要设置是否匿名化 IP
 
 
 # Site Author
