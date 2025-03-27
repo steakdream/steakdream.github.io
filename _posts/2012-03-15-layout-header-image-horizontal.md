@@ -1,5 +1,5 @@
 ---
-title: "Layout: Header Image (Horizontal)"
+title: "Layout"
 header:
   image: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
