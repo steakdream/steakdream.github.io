@@ -17,8 +17,6 @@ This post should display a **header image**, if the theme supports it.
 
 Non-square images can provide some unique styling issues.
 
-<!-- 在页面内容中直接插入 Gitalk 评论容器和初始化代码 -->
-<div id="gitalk-container"></div>
 <script type="text/javascript">
   window.onload = function() {
     var rawPath = window.location.pathname;
@@ -30,12 +28,13 @@ Non-square images can provide some unique styling issues.
       repo: 'comments',
       owner: 'steakdream',
       admin: ['steakdream'],
-      id: window.location.pathname,
+      id: pageId,  // 使用处理后的 pageId
       distractionFreeMode: false
     });
     gitalk.render('gitalk-container');
   }
 </script>
+
 
 aaaaa
 
