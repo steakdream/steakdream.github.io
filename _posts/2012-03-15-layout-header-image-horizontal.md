@@ -7,7 +7,8 @@ tags:
   - edge case
   - featured image
   - image
-  - layout
+
+author_profile: false
 ---
 
 This post should display a **header image**, if the theme supports it.
