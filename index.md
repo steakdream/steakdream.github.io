@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/IMG_3846.JPG
   actions:
     - label: "Enter"
-      url: "steakdream.github.io/_pages/list.md"
+      url: "/_pages/list"
   caption: "Edmonton"
 excerpt: "So many things I do not understand."
 intro: 
