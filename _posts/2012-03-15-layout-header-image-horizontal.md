@@ -29,7 +29,8 @@ Non-square images can provide some unique styling issues.
       owner: 'steakdream',
       admin: ['steakdream'],
       id: pageId,  // 使用处理后的 pageId
-      distractionFreeMode: false
+      distractionFreeMode: false,
+      debug: true
     });
     gitalk.render('gitalk-container');
   }
