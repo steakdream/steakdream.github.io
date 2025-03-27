@@ -14,6 +14,8 @@ This post should display a **header image**, if the theme supports it.
 
 Non-square images can provide some unique styling issues.
 
+<div id="gitalk-container"></div>
+
 <script type="text/javascript">
   window.onload = function() {
     var rawPath = window.location.pathname;
