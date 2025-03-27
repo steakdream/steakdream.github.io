@@ -1,7 +1,7 @@
 ---
 title: "Layout"
 header:
-  image: /assets/images/IMG_3846_resize.JPG
+  image: /assets/images/IMG_3846_resize.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 
 tags:
