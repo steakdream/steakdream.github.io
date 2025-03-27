@@ -4,11 +4,9 @@ header:
   image: /assets/images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 tags:
-  - edge case
-  - featured image
-  - image
 
 author_profile: false
+share: true
 ---
 
 This post should display a **header image**, if the theme supports it.
