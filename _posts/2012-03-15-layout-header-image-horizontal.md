@@ -17,8 +17,7 @@ This post should display a **header image**, if the theme supports it.
 
 Non-square images can provide some unique styling issues.
 
-This post tests a horizontal header image.
-
+<!-- 在页面内容中直接插入 Gitalk 评论容器和初始化代码 -->
 <div id="gitalk-container"></div>
 <script type="text/javascript">
   window.onload = function() {
@@ -34,3 +33,5 @@ This post tests a horizontal header image.
     gitalk.render('gitalk-container');
   }
 </script>
+
+This post tests a horizontal header image.
