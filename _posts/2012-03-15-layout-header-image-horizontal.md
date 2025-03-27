@@ -9,6 +9,7 @@ tags:
 toc: true
 toc_label: "Unique Title"
 toc_icon: "heart"
+toc_sticky: true
 
 author_profile: false
 share: false
