@@ -1,7 +1,7 @@
 ---
 title: "Layout"
 header:
-  image: /assets/images/IMG_3846_resize.jpg
+  image: /assets/images/IMG_0156_resize.jpg
   caption: "Lovely Edmonton"
 
 tags:
