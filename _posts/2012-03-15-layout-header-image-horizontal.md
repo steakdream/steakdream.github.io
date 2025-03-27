@@ -2,7 +2,7 @@
 title: "Layout"
 header:
   image: /assets/images/IMG_3846_resize.jpg
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: "Lovely Edmonton"
 
 tags:
   - table of contents
