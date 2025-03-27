@@ -6,7 +6,7 @@ header:
 tags:
 
 author_profile: false
-share: true
+share: false
 ---
 
 This post should display a **header image**, if the theme supports it.
