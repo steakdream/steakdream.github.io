@@ -34,8 +34,3 @@ Non-square images can provide some unique styling issues.
     gitalk.render('gitalk-container');
   }
 </script>
-
-
-aaaaa
-
-This post tests a horizontal header image.
